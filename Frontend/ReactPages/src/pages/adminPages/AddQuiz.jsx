@@ -100,7 +100,7 @@ const AddQuiz = () => {
               className="form-select mb-4 ml-4 w-64 h-8"
             >
               <option value="">-- Select a Category --</option>
-              {categories.map((category) => (
+              {Array.isArray(categories) && categories.map((category) => (
                 <option key={category._id} value={category._id}>
                   {category.dbTitle}
                 </option>

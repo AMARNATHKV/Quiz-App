@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Authentication from './pages/playerPages/Authentication';
 import Dashboard from './pages/playerPages/Dashboard'
 import AdminDashboard from './pages/adminPages/AdminDashboard';
-import AddQuiz from './pages/adminPages/AddQuiz';
+import AddQuiz from './pages/adminPages/AddQuiz1';
 
 const App = () => {
 
@@ -18,6 +18,7 @@ const App = () => {
         <Route path='/dashboard' element={<Dashboard />} />
         <Route path='/admin-dashboard' element={<AdminDashboard />} />
         <Route path='/addQuiz' element={<AddQuiz />} />
+
       </Routes>
 
     </Router>

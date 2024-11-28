@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 import bcrypt from 'bcrypt';
-import Admin from "../Models/adminSet";
+import Admin from "../Models/adminSet.js";
 
 mongoose.connect('mongodb://localhost:27017/TriviaHub')
 
